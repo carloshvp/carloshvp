@@ -23,14 +23,30 @@
 > **Current question:** How do we give increasingly autonomous systems useful
 > freedom to act without losing human control or accountability?
 
+## Flagship lab
+
+<p align="center">
+  <a href="https://github.com/carloshvp/governed-embodied-agent-lab">
+    <img src="https://raw.githubusercontent.com/carloshvp/governed-embodied-agent-lab/main/docs/demo-run.svg" alt="Governed Embodied Agent Lab demo" width="100%">
+  </a>
+</p>
+
+**[Governed Embodied Agent Lab](https://github.com/carloshvp/governed-embodied-agent-lab)**
+is a runnable reference environment for policy-gated robot actions. It
+demonstrates environment-derived context, fail-closed decisions, action-bound
+human approval, restart continuity, one-time approval, and a tamper-evident
+evidence chain.
+
 ## Proof in public
 
 | Project | What I contributed |
 | --- | --- |
+| **[Governed Embodied Agent Lab](https://github.com/carloshvp/governed-embodied-agent-lab)** | Original runnable reference implementation with eight governance tests and two architecture/demo visuals |
 | **[Microsoft Agent Governance Toolkit](https://github.com/microsoft/agent-governance-toolkit/pulls?q=is%3Apr+is%3Amerged+author%3Acarloshvp)** | Nine merged contributions spanning fail-closed sandboxing, action-bound approval, physical-agent risk mapping, and compliance evidence |
 | **[AgenTrust examples](https://github.com/agentrust-io/examples/pulls?q=is%3Apr+is%3Amerged+author%3Acarloshvp)** | Industrial embodied-AI governance example and guidance for preserving evidence across controller restarts |
 | **[Practical AI Governance for Builders](https://governance.ai-mvp.com/)** | Technical field notes connecting regulation to runtime controls and engineering practice |
 | **[Awesome EU AI Act](https://github.com/GenAI-Gurus/awesome-eu-ai-act)** | Maintainer of a curated implementation resource for builders and governance teams |
+| **[Awesome Embodied AI Governance](https://github.com/GenAI-Gurus/awesome-embodied-ai-governance)** | Curated research map spanning robot safety standards, runtime controls, assurance, and evaluation |
 | **[GenAI Gurus](https://genai-gurus.com/)** | Founder of a practitioner community for applied generative AI |
 
 ## Current focus
