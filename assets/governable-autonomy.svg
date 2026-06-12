@@ -1,0 +1,59 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="320" viewBox="0 0 1200 320" role="img" aria-labelledby="title description">
+  <title id="title">Carlos Hernandez - Governable Autonomy</title>
+  <desc id="description">Building observable, controllable, and accountable AI across enterprise agents and embodied systems.</desc>
+  <defs>
+    <linearGradient id="background" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#07111f"/>
+      <stop offset="0.55" stop-color="#102a43"/>
+      <stop offset="1" stop-color="#123b4a"/>
+    </linearGradient>
+    <linearGradient id="signal" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0" stop-color="#49d6c8"/>
+      <stop offset="1" stop-color="#f2b84b"/>
+    </linearGradient>
+    <pattern id="grid" width="40" height="40" patternUnits="userSpaceOnUse">
+      <path d="M 40 0 L 0 0 0 40" fill="none" stroke="#9fc5d1" stroke-opacity="0.08" stroke-width="1"/>
+    </pattern>
+    <filter id="glow" x="-50%" y="-50%" width="200%" height="200%">
+      <feGaussianBlur stdDeviation="8" result="blur"/>
+      <feMerge>
+        <feMergeNode in="blur"/>
+        <feMergeNode in="SourceGraphic"/>
+      </feMerge>
+    </filter>
+  </defs>
+
+  <rect width="1200" height="320" rx="24" fill="url(#background)"/>
+  <rect width="1200" height="320" rx="24" fill="url(#grid)"/>
+
+  <g opacity="0.9">
+    <circle cx="968" cy="160" r="94" fill="none" stroke="#49d6c8" stroke-opacity="0.2" stroke-width="1"/>
+    <circle cx="968" cy="160" r="66" fill="none" stroke="#49d6c8" stroke-opacity="0.35" stroke-width="1"/>
+    <circle cx="968" cy="160" r="8" fill="#f2b84b" filter="url(#glow)"/>
+    <path d="M 810 160 H 1126" stroke="#49d6c8" stroke-opacity="0.32"/>
+    <path d="M 968 52 V 268" stroke="#49d6c8" stroke-opacity="0.32"/>
+    <path d="M 880 100 L 968 160 L 1060 92" fill="none" stroke="url(#signal)" stroke-width="3"/>
+    <path d="M 880 220 L 968 160 L 1060 228" fill="none" stroke="url(#signal)" stroke-width="3"/>
+    <circle cx="880" cy="100" r="6" fill="#49d6c8"/>
+    <circle cx="1060" cy="92" r="6" fill="#f2b84b"/>
+    <circle cx="880" cy="220" r="6" fill="#49d6c8"/>
+    <circle cx="1060" cy="228" r="6" fill="#f2b84b"/>
+  </g>
+
+  <rect x="72" y="54" width="72" height="4" rx="2" fill="url(#signal)"/>
+  <text x="72" y="104" fill="#a9c7d2" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="18" font-weight="600" letter-spacing="3">
+    CARLOS HERNANDEZ
+  </text>
+  <text x="72" y="169" fill="#ffffff" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="52" font-weight="700">
+    Governable Autonomy
+  </text>
+  <text x="72" y="211" fill="#d6e5ea" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="23">
+    AI that can act, while remaining observable,
+  </text>
+  <text x="72" y="244" fill="#d6e5ea" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="23">
+    controllable, and accountable.
+  </text>
+  <text x="72" y="286" fill="#49d6c8" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="16" font-weight="600" letter-spacing="1.4">
+    ENTERPRISE AI  /  AGENT GOVERNANCE  /  EMBODIED SYSTEMS
+  </text>
+</svg>
